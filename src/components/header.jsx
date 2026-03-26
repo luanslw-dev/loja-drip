@@ -1,6 +1,6 @@
 import Logo from "./logo";
 import SearchBar from "./searchBar";
-import AuthLinks from "./authLinksuthLinks";
+import AuthLinks from "./authLinks";
 import MainNav from "./mainNave";
 import CartIcon from "./cartIcon";
 
