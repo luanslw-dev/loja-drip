@@ -1,8 +1,8 @@
 import Logo from "./logo";
 import SearchBar from "./searchBar";
-import AuthLinks from "./AuthLinks";
+import AuthLinks from "./authLinksuthLinks";
 import MainNav from "./mainNave";
-import CartIcon from "./CartIcon";
+import CartIcon from "./cartIcon";
 
 const Header = () => {
   return (

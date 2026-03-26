@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 import Layout from './pages/Layout';
-import HomePage from './pages/HomePage';
-import ProductViewPage from './pages/ProductViewPage';
-import CategoriasPage from './pages/CategoriasPage';
-import MeusPedidosPage from './pages/MeusPedidosPage';
-import ProductPage from './pages/ProductPage'; 
-import CompletarCadastro from './pages/CompletarCadastro';
+import HomePage from './pages/homePage';
+import ProductViewPage from './pages/productViewPage';
+import CategoriasPage from './pages/categoriasPage';
+import MeusPedidosPage from './pages/meusPedidosPage';
+import ProductPage from './pages/productPage'; 
+import CompletarCadastro from './pages/completarCadastro';
 
 // 1. Importe as duas novas páginas que você acabou de criar
 import Login from './pages/Login';
