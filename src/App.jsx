@@ -8,8 +8,8 @@ import ProductPage from './pages/productPage';
 import CompletarCadastro from './pages/completarCadastro';
 
 // 1. Importe as duas novas páginas que você acabou de criar
-import Login from './pages/Login';
-import Cadastro from './pages/Cadastro';
+import Login from './pages/login';
+import Cadastro from './pages/cadastro';
 
 
 function App() {
