@@ -1,16 +1,125 @@
-# React + Vite
+# Loja Drip (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação frontend de e-commerce desenvolvida com React, com foco em performance, organização de código e experiência do usuário. O projeto simula uma loja virtual moderna, com gerenciamento de estado global e estrutura escalável para integração com serviços externos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visão Geral
 
-## React Compiler
+A Loja Drip é uma aplicação web que representa a interface de um e-commerce, permitindo navegação entre produtos, visualização de detalhes e gerenciamento de um carrinho de compras.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto foi desenvolvido com boas práticas de componentização, separação de responsabilidades e uso de Context API para gerenciamento de estado.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demonstração
+
+A aplicação está disponível em produção:
+
+🔗 https://loja-drip-jyy0vwa56-luans-projects-ccc678b8.vercel.app/
+
+---
+
+## Tecnologias Utilizadas
+
+- React.js  
+- JavaScript (ES6+)  
+- Vite  
+- Context API  
+- CSS3  
+
+---
+
+src/
+│
+├── components/ # Componentes reutilizáveis
+├── pages/ # Páginas da aplicação
+├── contexts/ # Estado global (ex: carrinho)
+├── assets/ # Imagens e arquivos estáticos
+├── styles/ # Estilos globais (se houver)
+└── App.jsx # Componente principal
+
+## Arquitetura e Estrutura
+
+O projeto segue uma arquitetura baseada em componentes reutilizáveis:
+
+
+---
+
+## Funcionalidades
+
+- Listagem de produtos  
+- Visualização de detalhes  
+- Carrinho de compras  
+- Gerenciamento de estado com Context API  
+- Interface responsiva  
+
+---
+
+## Gerenciamento de Estado
+
+O estado global é controlado utilizando a Context API do React, permitindo compartilhamento eficiente de dados entre componentes.
+
+Exemplo:
+
+- CartContext → responsável pelo carrinho de compras  
+
+---
+
+## Instalação e Execução
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+```
+```bash
+cd SEU-REPOSITORIO
+```bash
+Instale as dependências:
+```
+```bash
+npm install
+```
+```bash
+Execute o projeto:
+```
+```bash
+npm run dev
+```
+
+Acesse no navegador:
+
+http://localhost:5173
+Build e Produção
+
+Gerar build:
+
+npm run build
+
+Visualizar build:
+
+npm run preview
+Boas Práticas Aplicadas
+Componentização
+Reutilização de código
+Separação de responsabilidades
+Estrutura escalável
+Gerenciamento global com Context API
+Limitações Atuais
+Sem backend integrado
+Sem persistência de dados
+Sem autenticação de usuários
+Sem sistema de pagamento
+Melhorias Futuras
+Integração com API REST
+Banco de dados
+Autenticação (JWT)
+Pagamentos (Stripe / Mercado Pago)
+Filtros e busca
+Painel administrativo
+
+
+
+
+
